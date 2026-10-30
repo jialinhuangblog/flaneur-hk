@@ -1,0 +1,110 @@
+{
+  "configVersion": 1,
+  "timestamp": 1793331438052,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app-shell",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-75gi7zMR.js",
+        "/chunk-B6mU5AHc.js",
+        "/chunk-BWsC4XEb.js",
+        "/chunk-CoZrZqeK.js",
+        "/chunk-DHWqB02Q.js",
+        "/chunk-bW3cLVhv.js",
+        "/favicon.svg",
+        "/index.html",
+        "/main-Q7UASDZO.js",
+        "/manifest.webmanifest",
+        "/styles-3HJEBZUE.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icon-small.svg",
+        "/icon.svg",
+        "/icons/apple-touch-icon.png",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "firestore-reads",
+      "patterns": [
+        "https:\\/\\/firestore\\.googleapis\\.com\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 200,
+      "maxAge": 86400000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/chunk-75gi7zMR.js": "68060e353f600f6b98d87a5da4b8ebb7a483bb2c",
+    "/chunk-B6mU5AHc.js": "d780c56ba1b4d6f12b3139996e7e49e4aa3e178c",
+    "/chunk-BWsC4XEb.js": "8d875e9ae9e6bb457a8a2e88a55b4d70e6829a32",
+    "/chunk-CoZrZqeK.js": "cfa54f863ca956f2e614512be67d60f95ecd4d46",
+    "/chunk-DHWqB02Q.js": "6346a90f1f6e78b7eaadbe428754c7f1d2f3045f",
+    "/chunk-bW3cLVhv.js": "3f718a8f5910870920c06595004393845f678b3d",
+    "/favicon.svg": "99a3d4e36738bc7d1ada58e31dc37336c4bbd0ad",
+    "/icon-small.svg": "7767f1c5d9b243980f83c447be29e82b043d2eeb",
+    "/icon.svg": "beb7249d9feced7a92b499b0b0bb631ad2f22e20",
+    "/icons/apple-touch-icon.png": "071ab3b88227e8827b3f8ec80d6f03496e94609c",
+    "/icons/icon-128x128.png": "c24fab807f083aa41e43db7aba879a7c3c847b66",
+    "/icons/icon-144x144.png": "34feff23a8d3bbfbf4c26d405bd32e3cfb77c837",
+    "/icons/icon-152x152.png": "9b9259e8b0251ce4139c9a9ecb2d37f240264433",
+    "/icons/icon-192x192.png": "4020d4c12f506925805bf47e93d86a79cc5c25a5",
+    "/icons/icon-384x384.png": "4380c3a9f6f06a9bbc0a5cb6b76bd8dd73b9d098",
+    "/icons/icon-512x512.png": "f642dcb9947f839f5560cb6e3c1f6d4e8e45e082",
+    "/icons/icon-72x72.png": "a73fdc911bc1a2527a6f57b4988a2235d2c57148",
+    "/icons/icon-96x96.png": "001ba7da1d78a20cf6cf9c368510a325be80e523",
+    "/index.html": "c0c5291c412f3c444aabbb324fa929fe2acedb75",
+    "/main-Q7UASDZO.js": "856c05fbd8a7306975cd3159f57eef103e52ff65",
+    "/manifest.webmanifest": "75def7489544c923f494b6b01c0174e4338fa1e7",
+    "/styles-3HJEBZUE.css": "54932c5fe025693b7eaedc17fba9351dc4a4dd37"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
